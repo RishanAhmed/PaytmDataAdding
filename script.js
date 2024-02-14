@@ -103,9 +103,9 @@ function Download(){
 
         $("#TBody").append(Row)
 
-    })
+        PDFMAKER()
 
-    setTimeout(PDFMAKER, 5000)
+    })
     
 }
 
