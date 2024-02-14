@@ -99,7 +99,7 @@ function Download(){
 
         Row = Row + "<tr><td class='bg-dark'></td><td class='bg-dark'></td></tr>"
 
-        Row = Row + "<tr> <td>Grand Total "+amt+"</td> </tr>"
+        Row = Row + "<tr> <td>Grand Total</td><td>"+amt+"</td> </tr>"
 
         $("#TBody").append(Row)
 
