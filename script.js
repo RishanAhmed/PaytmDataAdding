@@ -105,6 +105,8 @@ function Download(){
 
     })
 
+    setTimeout(PDFMAKER, 5000)
+    
 }
 
 function PDFMAKER(){
